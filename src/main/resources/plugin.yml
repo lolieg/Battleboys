@@ -1,0 +1,20 @@
+name: Battleboys
+version: ${project.version}
+main: me.lolieg.battleboys.Battleboys
+api-version: 1.16
+authors: [ lolieg ]
+description: Battle Royale gamemode
+depend: []
+commands:
+  start:
+    description: Start the Game.
+    usage: /<command>
+    permission: battleboys.start
+  stop:
+    description: Stop the Game from starting.
+    usage: /<command>
+    permission: battleboys.stop
+  run:
+    description: Instantly start the game.
+    usage: /<command>
+
